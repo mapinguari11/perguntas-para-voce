@@ -1,0 +1,54 @@
+body {
+    background-color: #212121;
+    color: #bebebe;
+    margin: 50px 100px;
+}
+
+h1 {
+    justify-self: center;
+}
+.form, .output {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    border: 1px solid #bebebe;
+}
+
+li {
+    padding: 0.5rem 0;
+}
+
+.sect-enviar {
+    margin: 1rem;
+}
+
+.enviar-button {
+    padding: 0.5rem 5rem;
+}
+
+.segunda-pergunta {
+    margin: 1rem 0;
+}
+
+.response-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.seletor-resposta {
+    font-size: 18px;
+    font-weight: 700;
+    width: 40px;
+}
+
+.linguagens-resposta {
+    padding: 1rem;
+}
+
+.hidden {
+    display: none;
+}
